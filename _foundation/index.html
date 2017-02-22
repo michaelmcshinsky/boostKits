@@ -6,7 +6,7 @@ title: Index
 <ul>
 {% for foun in site.foundation %}
 	<li>
-		<a href="{{ foun.url }}">{{ foun.title }}</a>
+		<a href="{{ site.baseurl }}{{ foun.url }}">{{ foun.title }}</a>
 	</li>
 {% endfor %}
 </ul>
