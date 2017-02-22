@@ -1,0 +1,12 @@
+---
+layout: page
+title: Index
+---
+
+<ul>
+{% for foun in site.foundation %}
+	<li>
+		<a href="{{ foun.url }}">{{ foun.title }}</a>
+	</li>
+{% endfor %}
+</ul>
